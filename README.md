@@ -1,7 +1,7 @@
 # Echom: E-Commerce Website for the Visually Impaired
 
 ## Overview
-**Echom** is an accessible eCommerce platform designed to provide a seamless shopping experience for visually impaired users. The website features voice-based interaction, a responsive design, and real-time updates to enhance user experience. 
+**Echom** is an accessible Ecommerce platform designed to provide a seamless shopping experience for visually impaired users. The website features voice-based interaction, a responsive design, and real-time updates to enhance user experience. 
 
 ## Features
 
@@ -62,7 +62,7 @@ Ensure you have the following installed:
    npm run dev
    
    # Start the backend
-   cd ../backend
+   cd backend
    node server.js
    ```
 
