@@ -83,4 +83,4 @@ This project is licensed under the MIT License.
 For any queries or suggestions, feel free to reach out!
 
 ---
-Enjoy exploring **Echom** and making eCommerce more accessible!
+Enjoy exploring **Echom** and making Ecommerce more accessible!
