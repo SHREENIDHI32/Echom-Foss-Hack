@@ -43,7 +43,7 @@ Ensure you have the following installed:
    ```bash
    cd frontend
    npm install
-   cd ../backend
+   cd backend
    npm install
    ```
 3. **Set Up Environment Variables:**
