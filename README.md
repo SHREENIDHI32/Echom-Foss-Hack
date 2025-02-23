@@ -31,7 +31,7 @@
 Ensure you have the following installed:
 - Node.js
 - npm (Node Package Manager)
-- MongoDB (if running locally)
+
 
 ### Installation
 1. **Clone the Repository:**
@@ -52,7 +52,7 @@ Ensure you have the following installed:
      ```env
      STRIPE_SECRET_KEY=your_stripe_key
      JWT_SECRET=your_random_secret_key
-     MONGO_URI=your_mongo_db_uri
+     
      ```
 
 4. **Run the Application:**
