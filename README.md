@@ -1,58 +1,86 @@
+# Echom: E-Commerce Website for the Visually Impaired
 
-# React + Vite
+## Overview
+**Echom** is an accessible Ecommerce platform designed to provide a seamless shopping experience for visually impaired users. The website features voice-based interaction, a responsive design, and real-time updates to enhance user experience. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+### Customer Interface (Frontend)
+- **Responsive Design:** Built with React, ensuring compatibility across various devices.
+- **Voice-Based Interaction:** Integrated speech recognition for hands-free navigation and operation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
- Echom: Ecommerce website for visually impaired
+### Admin Panel
+- **User Management:** Admins can manage customer and delivery personnel accounts.
+- **Product & Category Management:** Easily add, edit, and remove products and categories.
+- **Order Tracking:** Real-time monitoring and status updates for orders.
+- **Analytics Dashboard:** Track key metrics such as popular items and user activity.
+
+### Backend (Server)
+- **Real-Time Updates:** WebSockets provide instant order status updates.
+- **Security:** Secure endpoints, encrypted user data, and Stripe-powered secure payment processing.
+
+## Technology Stack
+- **Frontend:** React, CSS3, Bootstrap/Material UI, Stripe for payment processing.
+- **Backend:** Node.js, Express.js, WebSockets for real-time updates.
+- **Database:** MongoDB for efficient data management.
+- **Payment Integration:** Stripe for secure transactions.
+
+## Getting Started
+
+### Prerequisites
+Ensure you have the following installed:
+- Node.js
+- npm (Node Package Manager)
 
 
-
- Features
-
- Customer Interface (Frontend)
-- Responsive Design: Developed with React, echom offers a fully responsive interface that adapts to various devices, from desktops to mobile screens, ensuring an optimized user experience.
-- voice based interaction: SpeechRecognition.
-  
- Admin Panel
-- User Management: Admins can view and manage user accounts, including customer and delivery personnel information.
-- Menu and Restaurant Management: Easily add, edit, and delete items, categories to keep the offerings up to date.
-- Order Tracking: Real-time monitoring of active and past orders, with controls to update the order status (e.g., received, in-progress, completed, delivered).
-- Analytics: Track key metrics like popular items, order frequency, and user activity to make informed decisions and improve services.
-
- Backend (Server)
-- API Development: Built with Express, the backend provides RESTful APIs to handle requests, manage authentication, and connect the frontend and admin panel to the MongoDB database.
-- Data Storage: MongoDB is used for storing user profiles, order details, restaurant data, and items in a scalable and efficient manner.
-- Real-Time Updates: With WebSockets, users receive live updates on their order status from the moment they place it until delivery.
-- Security: Data protection and secure endpoints, with encrypted user information and secure payment processing via Stripe.
-
- Technology Stack
-- Frontend: React, CSS3, Bootstrap/Material UI for styling, and Stripe integration for payment processing.
-- Backend: Node.js with Express.js, and WebSockets for real-time updates.
-- Database: MongoDB for efficient, scalable data storage.
-- Payment Integration: Stripe for secure and seamless payment processing.
-
- Getting Started
-1. Clone the Repository: `git clone <repo-url>`
-2. Install Dependencies: 
+### Installation
+1. **Clone the Repository:**
+   ```bash
+   git clone <repo-url>
+   cd Echom
+   ```
+2. **Install Dependencies:**
    ```bash
    cd frontend
    npm install
    cd backend
    npm install
    ```
-3. Set Up Environment Variables: Add environment variables for MongoDB, Stripe keys, and JWT secrets in a `.env` file.
-4. Run the Application:
-   - Start the frontend: `npm run dev` from the frontend folder.
-   - Start the backend: `node server.js` from the backend folder.
+3. **Set Up Environment Variables:**
+   - Create a `.env` file in `Echom/backend/`.
+   - Add the following keys:
+     ```env
+     STRIPE_SECRET_KEY=your_stripe_key
+     JWT_SECRET=your_random_secret_key
+     
+     ```
 
+4. **Run the Application:**
+   ```bash
+   # Start the frontend
+   cd frontend
+   npm run dev
+   
+   # Start the backend
+   cd backend
+   node server.js
+   ```
 
- Contribution Guidelines
-Feel free to contribute to echom by forking this repository, creating a new branch, and submitting a pull request. Please make sure to follow standard coding practices and add meaningful comments to your code.
+## Contribution Guidelines
+We welcome contributions to **Echom**! To contribute:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m "Added new feature"`).
+4. Push to your branch (`git push origin feature-branch`).
+5. Open a pull request.
 
-Enjoy exploring the code and features of echom, and feel free to reach out for any questions or suggestions!
+Please follow standard coding practices and include meaningful comments in your code.
 
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For any queries or suggestions, feel free to reach out!
+
+---
+Enjoy exploring **Echom** and making Ecommerce more accessible!
