@@ -77,7 +77,7 @@ const Cart = () => {
 
       if (transcript.includes("yes")) {
         const utterance = new SpeechSynthesisUtterance(
-          "Your order has been placed."
+          "Your order has been placed, Our delivery partner will contact you soon."
         );
         synth.speak(utterance);
 
