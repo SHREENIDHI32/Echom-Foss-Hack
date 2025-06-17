@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "_id": "1",
+      "name": "Classic Burger",
+      "description": "Juicy beef patty with fresh vegetables",
+      "price": 12.99,
+      "image": "/images/burger.jpg",
+      "category": "Main Course"
+    },
+    {
+      "_id": "2",
+      "name": "Margherita Pizza",
+      "description": "Fresh tomatoes, mozzarella, and basil",
+      "price": 14.99,
+      "image": "/images/pizza.jpg",
+      "category": "Main Course"
+    },
+    {
+      "_id": "3",
+      "name": "Caesar Salad",
+      "description": "Crisp romaine lettuce with Caesar dressing",
+      "price": 8.99,
+      "image": "/images/salad.jpg",
+      "category": "Starters"
+    },
+    {
+      "_id": "4",
+      "name": "Chocolate Cake",
+      "description": "Rich chocolate cake with ganache",
+      "price": 6.99,
+      "image": "/images/cake.jpg",
+      "category": "Desserts"
+    }
+  ]
+}
